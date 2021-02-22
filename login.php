@@ -1,8 +1,8 @@
 <?php
 
     session_start();
-    include '../database/db_module.php';
-    include '../authentication/login.php';
+    include 'database/db_module.php';
+    include 'authentication/login.php';
 
     $email = "";
     $password = "";
@@ -16,7 +16,7 @@
                 
                 echo $result;
             }else {
-                echo "<script>window.location.href='../index.php'</script>";
+                echo "<script>window.location.href='./index.php'</script>";
                 die;
             }
 
@@ -37,15 +37,15 @@
 <title>Login &mdash; CodiePie</title>
 
 <!-- General CSS Files -->
-<link rel="stylesheet" href="../assets/modules/bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" href="../assets/modules/fontawesome/css/all.min.css">
+<link rel="stylesheet" href="./assets/modules/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="./assets/modules/fontawesome/css/all.min.css">
 
 <!-- CSS Libraries -->
-<link rel="stylesheet" href="../assets/modules/bootstrap-social/bootstrap-social.css">
+<link rel="stylesheet" href="./assets/modules/bootstrap-social/bootstrap-social.css">
 
 <!-- Template CSS -->
-<link rel="stylesheet" href="../assets/css/style.min.css">
-<link rel="stylesheet" href="../assets/css/components.min.css">
+<link rel="stylesheet" href="./assets/css/style.min.css">
+<link rel="stylesheet" href="./assets/css/components.min.css">
 </head>
 
 <body class="layout-4">
@@ -100,7 +100,7 @@
                         </div>
                     </div>
                     <div class="mt-5 text-muted text-center">
-                        Don't have an account? <a href="auth-register.php">Create One</a>
+                        Don't have an account? <a href="modules/auth-register.php">Create One</a>
                     </div>
                     <div class="simple-footer">
                         &copy; CodiePie 2020
@@ -112,16 +112,16 @@
 </div>
 
 <!-- General JS Scripts -->
-<script src="../assets/bundles/lib.vendor.bundle.js"></script>
-<script src="../js/CodiePie.js"></script>
+<script src="./assets/bundles/lib.vendor.bundle.js"></script>
+<script src="./js/CodiePie.js"></script>
 
 <!-- JS Libraies -->
 
 <!-- Page Specific JS File -->
 
 <!-- Template JS File -->
-<script src="../js/scripts.js"></script>
-<script src="../js/custom.js"></script>
+<script src="./js/scripts.js"></script>
+<script src="./js/custom.js"></script>
 </body>
 
 </html>

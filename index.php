@@ -1,5 +1,7 @@
 <?php
-  include_once './modules/header.php';
+  
+  include_once './header.php';
+
 ?>
 
   <!-- Start app main Content -->
@@ -373,5 +375,5 @@
         </div>
 
 <?php
-  include_once './modules/footer.php';
+  include_once './footer.php';
 ?>

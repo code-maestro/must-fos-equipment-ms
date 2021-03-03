@@ -25,10 +25,13 @@
           $this->dbname
         );
       } catch (Exception $e) {
+
         echo "connection to the database failed " . $e->getMessage();
+
       }
 
       return $conn;
+      
     }
 
     //READ FUNCTION/METHOD TO RETRIEVE DATA PASSED TO IT WHEN IT'S CALLED

@@ -1,4 +1,5 @@
 <?php
+
     include '../database/db_module.php';
     include '../authentication/signup.php';
 
@@ -38,7 +39,7 @@
 <head>
 <meta charset="UTF-8">
 <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-<title>Register &mdash; CodiePie</title>
+<title>Register &mdash; FOS-MS </title>
 
 <!-- General CSS Files -->
 <link rel="stylesheet" href="../assets/modules/bootstrap/css/bootstrap.min.css">

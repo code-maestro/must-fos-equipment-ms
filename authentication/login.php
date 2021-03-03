@@ -15,9 +15,6 @@
       $query = "SELECT * FROM login 
                 WHERE email = '$Email' limit 1 ";
 
-    // VIEWING THE EXECUTED QUERIES
-      //echo $query;
-
       $DB = new DatabaseModule();
       $result = $DB->readData($query);
 
@@ -29,6 +26,7 @@
           
           //SESSION DATA CREATION
           $_SESSION['fos-ms_id'] = $row['id'];
+          $_SESSION['mail'] = $row['email'];
 
         }else {
 

@@ -15,6 +15,7 @@
             if ($result != "") {
                 
                 echo $result;
+                
             }else {
                 echo "<script>window.location.href='./index.php'</script>";
                 die;

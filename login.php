@@ -35,7 +35,7 @@
 <head>
 <meta charset="UTF-8">
 <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-<title>Login &mdash; CodiePie</title>
+<title>Login &mdash; FOS-MS </title>
 
 <!-- General CSS Files -->
 <link rel="stylesheet" href="./assets/modules/bootstrap/css/bootstrap.min.css">
@@ -61,7 +61,7 @@
                     </div>
                     <div class="card card-primary">
                         <div class="card-header">
-                            <h4>Login</h4>
+                            <h3> FACULTY OF SCIENCE </h3>
                         </div>
                         <div class="card-body">
                             <form method="POST" action="#" class="needs-validation" novalidate="">

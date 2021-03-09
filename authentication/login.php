@@ -8,8 +8,7 @@
 
       $Email = addslashes($data['email']);
       $Password = addslashes($data['password']);
-      
-      
+            
     // QUERIES TO RETRIEVE THE  DATA FROM
     // LOGIN TABLE
       $query = "SELECT * FROM login 
@@ -23,7 +22,6 @@
         $row = $result[0];
 
         if ($Password == $row['password']) {
-          
           //SESSION DATA CREATION
           $_SESSION['fos-ms_id'] = $row['id'];
           $_SESSION['mail'] = $row['email'];
